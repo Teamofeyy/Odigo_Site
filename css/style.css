@@ -460,9 +460,67 @@ body {
 /* Intro styles start */
 
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background: url(../img/intro_bg.jpg) no-repeat;
   background-size: cover;
+  padding-top: 263px;
+}
+
+.intro_title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 60px;
+  color: white;
+  max-width: 619px;
+  margin-bottom: 22px;
+}
+
+.intro_subtitle {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  color: white;
+  max-width: 546px;
+  margin-bottom: 59px;
+}
+
+.search-form_info {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.search-form_field {
+  width: 297px;
+  background: transparent url(../img/svg/circle.svg) no-repeat left 7px;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #BFC0C5;
+  margin-right: 60px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.search-form_field::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.search-form_submit {
+  padding: 15px 39px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFF;
+  background: #1B7DFF;
+  border: 0 ;
+}
+
+.search-form_submit:hover, .search-form_submit:focus, .search-form_submit:active {
+  background: #0e66da;
 }
 
 /* Intro stylrs end */
